@@ -1,0 +1,1432 @@
+[
+  {
+    "tweet_id": "synthetic-0000",
+    "incoming_text": "Where is my order A0000000? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel.",
+    "human_helpfulness": 4
+  },
+  {
+    "tweet_id": "synthetic-0001",
+    "incoming_text": "My delivery for order A0000001 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0002",
+    "incoming_text": "I was charged twice for order A0000002. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0003",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0004",
+    "incoming_text": "The app crashes whenever I open order A0000004.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0005",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step.",
+    "human_helpfulness": 4
+  },
+  {
+    "tweet_id": "synthetic-0006",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0007",
+    "incoming_text": "I want to cancel order A0000007 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0008",
+    "incoming_text": "Where is my order A0000008? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0009",
+    "incoming_text": "My delivery for order A0000009 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0010",
+    "incoming_text": "I was charged twice for order A0000010. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge.",
+    "human_helpfulness": 4
+  },
+  {
+    "tweet_id": "synthetic-0011",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0012",
+    "incoming_text": "The app crashes whenever I open order A0000012.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0013",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0014",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0015",
+    "incoming_text": "I want to cancel order A0000015 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options.",
+    "human_helpfulness": 4
+  },
+  {
+    "tweet_id": "synthetic-0016",
+    "incoming_text": "Where is my order A0000016? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0017",
+    "incoming_text": "My delivery for order A0000017 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0018",
+    "incoming_text": "I was charged twice for order A0000018. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0019",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0020",
+    "incoming_text": "The app crashes whenever I open order A0000020.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed.",
+    "human_helpfulness": 4
+  },
+  {
+    "tweet_id": "synthetic-0021",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0022",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0023",
+    "incoming_text": "I want to cancel order A0000023 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0024",
+    "incoming_text": "Where is my order A0000024? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0025",
+    "incoming_text": "My delivery for order A0000025 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues.",
+    "human_helpfulness": 4
+  },
+  {
+    "tweet_id": "synthetic-0026",
+    "incoming_text": "I was charged twice for order A0000026. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0027",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0028",
+    "incoming_text": "The app crashes whenever I open order A0000028.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0029",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step.",
+    "human_helpfulness": 5
+  },
+  {
+    "tweet_id": "synthetic-0030",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0031",
+    "incoming_text": "I want to cancel order A0000031 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0032",
+    "incoming_text": "Where is my order A0000032? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0033",
+    "incoming_text": "My delivery for order A0000033 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0034",
+    "incoming_text": "I was charged twice for order A0000034. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0035",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0036",
+    "incoming_text": "The app crashes whenever I open order A0000036.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0037",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0038",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0039",
+    "incoming_text": "I want to cancel order A0000039 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0040",
+    "incoming_text": "Where is my order A0000040? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0041",
+    "incoming_text": "My delivery for order A0000041 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0042",
+    "incoming_text": "I was charged twice for order A0000042. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0043",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0044",
+    "incoming_text": "The app crashes whenever I open order A0000044.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0045",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0046",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0047",
+    "incoming_text": "I want to cancel order A0000047 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0048",
+    "incoming_text": "Where is my order A0000048? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0049",
+    "incoming_text": "My delivery for order A0000049 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0050",
+    "incoming_text": "I was charged twice for order A0000050. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0051",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0052",
+    "incoming_text": "The app crashes whenever I open order A0000052.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0053",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0054",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0055",
+    "incoming_text": "I want to cancel order A0000055 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0056",
+    "incoming_text": "Where is my order A0000056? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0057",
+    "incoming_text": "My delivery for order A0000057 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0058",
+    "incoming_text": "I was charged twice for order A0000058. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0059",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0060",
+    "incoming_text": "The app crashes whenever I open order A0000060.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0061",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0062",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0063",
+    "incoming_text": "I want to cancel order A0000063 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0064",
+    "incoming_text": "Where is my order A0000064? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0065",
+    "incoming_text": "My delivery for order A0000065 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0066",
+    "incoming_text": "I was charged twice for order A0000066. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0067",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0068",
+    "incoming_text": "The app crashes whenever I open order A0000068.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0069",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0070",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0071",
+    "incoming_text": "I want to cancel order A0000071 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0072",
+    "incoming_text": "Where is my order A0000072? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0073",
+    "incoming_text": "My delivery for order A0000073 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0074",
+    "incoming_text": "I was charged twice for order A0000074. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0075",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0076",
+    "incoming_text": "The app crashes whenever I open order A0000076.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0077",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0078",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0079",
+    "incoming_text": "I want to cancel order A0000079 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0080",
+    "incoming_text": "Where is my order A0000080? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0081",
+    "incoming_text": "My delivery for order A0000081 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0082",
+    "incoming_text": "I was charged twice for order A0000082. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0083",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0084",
+    "incoming_text": "The app crashes whenever I open order A0000084.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0085",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0086",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0087",
+    "incoming_text": "I want to cancel order A0000087 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0088",
+    "incoming_text": "Where is my order A0000088? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0089",
+    "incoming_text": "My delivery for order A0000089 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0090",
+    "incoming_text": "I was charged twice for order A0000090. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0091",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0092",
+    "incoming_text": "The app crashes whenever I open order A0000092.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0093",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0094",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0095",
+    "incoming_text": "I want to cancel order A0000095 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0096",
+    "incoming_text": "Where is my order A0000096? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0097",
+    "incoming_text": "My delivery for order A0000097 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0098",
+    "incoming_text": "I was charged twice for order A0000098. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0099",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0100",
+    "incoming_text": "The app crashes whenever I open order A0000100.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0101",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0102",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0103",
+    "incoming_text": "I want to cancel order A0000103 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0104",
+    "incoming_text": "Where is my order A0000104? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0105",
+    "incoming_text": "My delivery for order A0000105 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0106",
+    "incoming_text": "I was charged twice for order A0000106. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0107",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0108",
+    "incoming_text": "The app crashes whenever I open order A0000108.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0109",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0110",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0111",
+    "incoming_text": "I want to cancel order A0000111 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0112",
+    "incoming_text": "Where is my order A0000112? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0113",
+    "incoming_text": "My delivery for order A0000113 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0114",
+    "incoming_text": "I was charged twice for order A0000114. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0115",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0116",
+    "incoming_text": "The app crashes whenever I open order A0000116.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0117",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0118",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0119",
+    "incoming_text": "I want to cancel order A0000119 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0120",
+    "incoming_text": "Where is my order A0000120? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0121",
+    "incoming_text": "My delivery for order A0000121 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0122",
+    "incoming_text": "I was charged twice for order A0000122. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0123",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0124",
+    "incoming_text": "The app crashes whenever I open order A0000124.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0125",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0126",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0127",
+    "incoming_text": "I want to cancel order A0000127 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0128",
+    "incoming_text": "Where is my order A0000128? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0129",
+    "incoming_text": "My delivery for order A0000129 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0130",
+    "incoming_text": "I was charged twice for order A0000130. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0131",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0132",
+    "incoming_text": "The app crashes whenever I open order A0000132.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0133",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0134",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0135",
+    "incoming_text": "I want to cancel order A0000135 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0136",
+    "incoming_text": "Where is my order A0000136? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0137",
+    "incoming_text": "My delivery for order A0000137 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0138",
+    "incoming_text": "I was charged twice for order A0000138. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0139",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0140",
+    "incoming_text": "The app crashes whenever I open order A0000140.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0141",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0142",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0143",
+    "incoming_text": "I want to cancel order A0000143 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0144",
+    "incoming_text": "Where is my order A0000144? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0145",
+    "incoming_text": "My delivery for order A0000145 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0146",
+    "incoming_text": "I was charged twice for order A0000146. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0147",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0148",
+    "incoming_text": "The app crashes whenever I open order A0000148.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0149",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0150",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0151",
+    "incoming_text": "I want to cancel order A0000151 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0152",
+    "incoming_text": "Where is my order A0000152? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0153",
+    "incoming_text": "My delivery for order A0000153 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0154",
+    "incoming_text": "I was charged twice for order A0000154. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0155",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0156",
+    "incoming_text": "The app crashes whenever I open order A0000156.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0157",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0158",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0159",
+    "incoming_text": "I want to cancel order A0000159 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0160",
+    "incoming_text": "Where is my order A0000160? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0161",
+    "incoming_text": "My delivery for order A0000161 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0162",
+    "incoming_text": "I was charged twice for order A0000162. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0163",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0164",
+    "incoming_text": "The app crashes whenever I open order A0000164.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0165",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0166",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0167",
+    "incoming_text": "I want to cancel order A0000167 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0168",
+    "incoming_text": "Where is my order A0000168? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0169",
+    "incoming_text": "My delivery for order A0000169 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0170",
+    "incoming_text": "I was charged twice for order A0000170. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0171",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0172",
+    "incoming_text": "The app crashes whenever I open order A0000172.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0173",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0174",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0175",
+    "incoming_text": "I want to cancel order A0000175 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0176",
+    "incoming_text": "Where is my order A0000176? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0177",
+    "incoming_text": "My delivery for order A0000177 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0178",
+    "incoming_text": "I was charged twice for order A0000178. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0179",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0180",
+    "incoming_text": "The app crashes whenever I open order A0000180.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0181",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0182",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0183",
+    "incoming_text": "I want to cancel order A0000183 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0184",
+    "incoming_text": "Where is my order A0000184? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0185",
+    "incoming_text": "My delivery for order A0000185 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0186",
+    "incoming_text": "I was charged twice for order A0000186. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0187",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0188",
+    "incoming_text": "The app crashes whenever I open order A0000188.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0189",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0190",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0191",
+    "incoming_text": "I want to cancel order A0000191 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  },
+  {
+    "tweet_id": "synthetic-0192",
+    "incoming_text": "Where is my order A0000192? It was due yesterday.",
+    "ground_truth_intent": "Order Tracking",
+    "ground_truth_escalate": false,
+    "reference_reply": "I’m sorry you’re waiting. Please check the order’s tracking page for the latest carrier scan; if it has not updated for 48 hours, contact us with the order number by secure channel."
+  },
+  {
+    "tweet_id": "synthetic-0193",
+    "incoming_text": "My delivery for order A0000193 is delayed again. This is ridiculous.",
+    "ground_truth_intent": "Delivery Delay",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the delivery is late. Tracking can update after the carrier’s next scan; please check it again within 24–48 hours. We can review the order securely if the delay continues."
+  },
+  {
+    "tweet_id": "synthetic-0194",
+    "incoming_text": "I was charged twice for order A0000194. Please refund the duplicate.",
+    "ground_truth_intent": "Refund/Billing",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry about the billing issue. For your security, please do not share payment details here. Contact support through the secure order page so a specialist can review the charge."
+  },
+  {
+    "tweet_id": "synthetic-0195",
+    "incoming_text": "I cannot sign in to my account after changing my password.",
+    "ground_truth_intent": "Account Auth",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry you’re having trouble signing in. Use the password-reset flow and never post a password or one-time code. If that does not work, contact account support through the secure help page."
+  },
+  {
+    "tweet_id": "synthetic-0196",
+    "incoming_text": "The app crashes whenever I open order A0000196.",
+    "ground_truth_intent": "Technical Issue",
+    "ground_truth_escalate": false,
+    "reference_reply": "Sorry the experience is not working. Please update the app, restart it, and try again. If it persists, send the app version and a screenshot with personal details removed."
+  },
+  {
+    "tweet_id": "synthetic-0197",
+    "incoming_text": "How do I update the delivery address before an item ships?",
+    "ground_truth_intent": "General Inquiry",
+    "ground_truth_escalate": false,
+    "reference_reply": "Thanks for reaching out. Please share the order context through the secure help page (without posting personal details), and support can help with the next step."
+  },
+  {
+    "tweet_id": "synthetic-0198",
+    "incoming_text": "My package says delivered but it is not here.",
+    "ground_truth_intent": "Missing Package",
+    "ground_truth_escalate": true,
+    "reference_reply": "I’m sorry the package is marked delivered but is not there. Please check safe locations and with neighbours, then report it through the order page so the delivery team can investigate."
+  },
+  {
+    "tweet_id": "synthetic-0199",
+    "incoming_text": "I want to cancel order A0000199 before it ships.",
+    "ground_truth_intent": "Cancellation",
+    "ground_truth_escalate": true,
+    "reference_reply": "I can help point you in the right direction. Open the order page and select cancellation if the item has not shipped; a support specialist can confirm the available options."
+  }
+]

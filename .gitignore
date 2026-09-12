@@ -1,0 +1,6 @@
+.env
+.venv/
+data/twcs.csv
+__pycache__/
+*.py[cod]
+.pytest_cache/
